@@ -31,7 +31,7 @@ public class Main {
         Producent producent1 = new Producent("BMW", "X5");
         Producent producent2= new Producent("BMW", "X3");
         Producent producent3= new Producent("BMW", "X4");
-        Producent producent4= new Producent("FERRARI", "Q4");
+        Producent producent4= new Producent("BMW", "Q4");
         Producent producent5= new Producent("VOLVO", "100");
         Producent producent6= new Producent("FW", "XXX");
         Producent producent7=new Producent("AUDI", "100");
@@ -45,7 +45,7 @@ public class Main {
         Car car2 = new Car(producent2, false, market2, "medium",
                 dimension1,dimension2, dimension3, dimension4, dimension5, dimension6, dimension7, dimension8,
                 dimension9, dimension10);
-        Car car3 = new Car(producent9, true, market3, "medium",
+        Car car3 = new Car(producent3, false, market5, "medium",
                 dimension1,dimension2, dimension3, dimension4, dimension5, dimension6, dimension7, dimension8,
                 dimension9, dimension10);
         Car car4 = new Car(producent4, false, market4, "standard",
@@ -101,10 +101,7 @@ public class Main {
         cars.add(car14);
         cars.add(car15);
 
+
         Car.findCarInfo(cars);
-
-
-
-
     }
 }

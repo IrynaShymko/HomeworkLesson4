@@ -1,5 +1,3 @@
-import org.jetbrains.annotations.NotNull;
-
 import java.util.ArrayList;
 
 public class Car {
@@ -60,10 +58,6 @@ public class Car {
                         } break;
                     }
                 }
-
-
-                //car.dimensions.stream().filter(dimension -> dimension.trankCapacity>300) ;
-
             }
         }
     }
