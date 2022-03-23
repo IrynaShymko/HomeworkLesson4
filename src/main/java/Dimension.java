@@ -1,7 +1,7 @@
 public class Dimension {
     private int high;
-   private int width;
-   private int trankCapacity;
+    private int width;
+    private int trankCapacity;
 
     public Dimension(int high, int width, int trankCapacity) {
         this.high = high;
@@ -11,13 +11,5 @@ public class Dimension {
 
     public int getTrankCapacity() {
         return trankCapacity;
-    }
-
-    public int getHigh() {
-        return high;
-    }
-
-    public int getWidth() {
-        return width;
     }
 }

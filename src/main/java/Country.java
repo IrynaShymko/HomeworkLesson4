@@ -11,9 +11,7 @@ public class Country {
         return countryName;
     }
 
-
     public char getCountrySign() {
         return countrySign;
     }
-
 }

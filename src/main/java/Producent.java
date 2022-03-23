@@ -1,6 +1,6 @@
-public class Producent{
-   String model;
-   String type;
+public class Producent {
+    private String model;
+    private String type;
 
     public Producent(String model, String type) {
         this.model = model;
@@ -10,5 +10,4 @@ public class Producent{
     public String getModel() {
         return model;
     }
-
 }
